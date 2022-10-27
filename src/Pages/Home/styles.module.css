@@ -1,0 +1,92 @@
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 2rem 1rem;
+    background-color: #1F2332;
+    position: fixed;
+    top:0;
+    z-index: 1;
+    }
+
+.header-title{
+    margin-top: 1rem;
+    color: white;
+}
+
+.logo{
+    width: 15rem;
+}
+.container-bloco{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+.error{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.title{
+    font-size:2rem;
+    margin:10rem 0 3rem 0;
+    text-align: center;
+}
+.bloco-cont{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.bloco{
+  display: flex;
+  flex-direction: column;
+  margin-left: 1rem;
+}
+.link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    color: white;
+    background-color:var(--primary) ;
+    padding: 1rem;
+    border-radius: 10px;
+    transition: all 0.3s;
+    margin-bottom:1rem;
+}
+.link:hover{
+    background-color: darkmagenta;
+}
+
+/* SCROLLBAR*/
+::-webkit-scrollbar {
+    width: 0.3rem;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: black; /*mudar para cor Secundaria*/
+    border-radius: 0.5rem;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: darkgrey; /*mudar para cor primaria*/
+    border-radius: 0.5rem;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: black; /*mudar para cor primaria*/
+  }
+
+  :focus {
+    outline: 0;
+  }
+  ::selection {
+    color: var(--corLetraMain);
+    background-color: black; /*mudar para cor primaria*/
+  }

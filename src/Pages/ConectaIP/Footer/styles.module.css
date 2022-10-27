@@ -1,0 +1,39 @@
+.container{
+    display: flex;
+    align-items: center;
+    background-color: black;
+    width: 100%;
+    padding: 0 5rem;
+}
+.logo{
+    width:10rem;
+}
+.lista-cont{
+    color: white;
+    margin-left: 10rem;
+    padding: 2rem;
+}
+.item-lista{
+    margin-bottom: 1rem;
+    transition: all 0.3s;
+    cursor:pointer;
+}
+.item-lista:hover{
+    color: #FF761A;
+}
+@media (max-width: 1025px){
+    .lista-cont{
+        margin-left: 2rem;
+    }
+    
+}
+@media (max-width: 800px){
+    .container{
+        flex-direction: column;
+        padding: 1rem 1rem;
+    }
+    .lista-cont{
+        margin-left: 0;
+        text-align: center;
+    }
+}
